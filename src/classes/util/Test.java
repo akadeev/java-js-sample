@@ -1,7 +1,10 @@
 package classes.util;
+
 class Test {
-  static native int addTwo(int x);
+
+  static native void runNativeCode();
+
   public static void main(String[] args) {
-    System.out.println(addTwo(5));
+    runNativeCode();
   }
 }
